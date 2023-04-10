@@ -15,7 +15,7 @@ $(function() {
 
 var swiper = new Swiper(".slide-container", {
   slidesPerView: 3,
-  spaceBetween: 0,
+  spaceBetween: 15,
   // slidesPerGroup: 1,
   loop: true,
   centerSlide: "true",
