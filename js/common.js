@@ -28,10 +28,10 @@ var swiper = new Swiper(".slide-container", {
   },
   breakpoints: {
     0: {
-      // allowTouchMove: true,
+      allowTouchMove: true,
     },
     1200: {
-      // allowTouchMove: false,
+      allowTouchMove: false,
     },
   },
 });
