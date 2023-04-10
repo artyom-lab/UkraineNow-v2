@@ -16,12 +16,11 @@ $(function() {
 var swiper = new Swiper(".slide-container", {
   slidesPerView: 3,
   spaceBetween: 15,
-  sliderPerGroup: 3,
+  // sliderPerGroup: 3,
   // loop: true,
   centerSlide: "true",
-  speed: 400,
-  fade: "true",
-  allowTouchMove: false, 
+  speed: 500,
+  // fade: "true", 
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
