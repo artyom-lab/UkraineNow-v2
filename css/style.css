@@ -1091,21 +1091,6 @@ ul {
         .slide-container .swiper-slide img {
           height: 60px; } }
 
-.swiper-pagination {
-  bottom: 30px !important;
-  width: 100% !important; }
-  .swiper-pagination .swiper-pagination-bullet {
-    background-color: #E5F5FF;
-    opacity: 1;
-    transform: scale(1); }
-    .swiper-pagination .swiper-pagination-bullet:hover {
-      background: #B2E2FF; }
-  .swiper-pagination .swiper-pagination-bullet-active {
-    background: #B2E2FF;
-    width: 28px;
-    height: 8px;
-    border-radius: 8px; }
-
 .navbar {
   padding-top: 18px;
   padding-bottom: 18px; }
