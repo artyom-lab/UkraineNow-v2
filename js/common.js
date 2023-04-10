@@ -16,10 +16,10 @@ $(function() {
 var swiper = new Swiper(".slide-container", {
   slidesPerView: 3,
   spaceBetween: 15,
-  sliderPerGroup: 3,
-  // loop: true,
+  sliderPerGroup: 9,
+  loop: true,
   centerSlide: "true",
-  speed: 1000,
+  // speed: 1000,
   fade: "true", 
   pagination: {
     el: ".swiper-pagination",
