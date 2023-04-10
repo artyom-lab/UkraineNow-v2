@@ -19,7 +19,7 @@ var swiper = new Swiper(".slide-container", {
   sliderPerGroup: 3,
   // loop: true,
   centerSlide: "true",
-  speed: 600,
+  speed: 400,
   fade: "true",
   allowTouchMove: false, 
   pagination: {
