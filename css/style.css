@@ -1058,7 +1058,7 @@ ul {
   .slide-container .swiper-slide {
     padding: 18px 15px;
     border-radius: 14px;
-    transition: 0.3s;
+    transition: 1s;
     display: flex;
     z-index: -1;
     flex-direction: column;
@@ -1098,7 +1098,7 @@ ul {
         filter: blur(0); }
     .slide-container .swiper-slide.swiper-slide-next {
       z-index: 1;
-      transition: 0.3s;
+      transition: 1s;
       transform: scale(1.3); }
       @media (max-width: 575.98px) {
         .slide-container .swiper-slide.swiper-slide-next {
