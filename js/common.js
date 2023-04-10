@@ -13,28 +13,28 @@ $(function() {
 //   carousel.to(carousel.relative($(this).index()), false, true);
 // });
 
-// var swiper = new Swiper(".slide-container", {
-//   slidesPerView: 3,
-//   spaceBetween: 0,
-//   // slidesPerGroup: 1,
-//   loop: true,
-//   centerSlide: "true",
-//   speed: 1000,
-//   fade: "true", 
-//   pagination: {
-//     el: ".swiper-pagination",
-//     clickable: true,
-//     // dynamicBullets: true,
-//   },
-//   breakpoints: {
-//     0: {
-//       allowTouchMove: true,
-//     },
-//     1200: {
-//       allowTouchMove: false,
-//     },
-//   },
-// });
+var swiper = new Swiper(".slide-container", {
+  slidesPerView: 3,
+  spaceBetween: 0,
+  // slidesPerGroup: 1,
+  loop: true,
+  centerSlide: "true",
+  speed: 1000,
+  fade: "true", 
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    // dynamicBullets: true,
+  },
+  breakpoints: {
+    0: {
+      allowTouchMove: true,
+    },
+    1200: {
+      allowTouchMove: false,
+    },
+  },
+});
 
   var popupTimer;
   function delayPopup(popup) {
@@ -86,31 +86,4 @@ function autosize(){
 
 
 
-(function() {
-  var MenuWebCarousel, carousel;
 
-  MenuWebCarousel = (function() {
-    function MenuWebCarousel() {
-      this.swiperContainer = $("#carousel");
-      this.swiperOptions = {
-        resistanceRatio: 0,
-        spaceBetween: 10,
-        centeredSlides: true,
-        slidesPerView: 3,
-        loop: true,
-      };
-    }
-
-    MenuWebCarousel.prototype.initSwiper = function() {
-      return this.swiperInstance = new Swiper(this.swiperContainer[0], this.swiperOptions);
-    };
-
-    return MenuWebCarousel;
-
-  })();
-
-  carousel = new MenuWebCarousel();
-
-  carousel.initSwiper();
-
-}).call(this);
