@@ -19,7 +19,7 @@ var swiper = new Swiper(".slide-container", {
   sliderPerGroup: 9,
   loop: true,
   centerSlide: "true",
-  // speed: 1000,
+  speed: 1000,
   fade: "true", 
   pagination: {
     el: ".swiper-pagination",
