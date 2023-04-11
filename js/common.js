@@ -72,7 +72,7 @@ var swiper = new Swiper("#carousel", {
   breakpoints: {
     0: {
       allowTouchMove: true,
-      speed: 1200,
+      speed: 1000,
     },
     1200: {
       allowTouchMove: false,
