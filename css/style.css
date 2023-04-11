@@ -1426,14 +1426,7 @@ ul {
   overflow: hidden; }
 
 .swiper-container {
-  margin: 0 auto;
-  position: relative; }
-
-.swiper-wrapper {
-  position: relative;
-  display: block;
-  font-size: 0;
-  width: 780px; }
+  margin: 0 auto; }
 
 .swiper-slide {
   font-size: 0;
