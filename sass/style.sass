@@ -1440,3 +1440,24 @@ ul
 		width: 8px
 	50%
 		width: 18px
+
+.swiper-button-prev
+	left: 0
+
+.swiper-button-next
+	right: 0
+
+.swiper-button-prev, .swiper-button-next
+	top: 20%
+	width: 30%
+	height: 206px
+	&:after 
+		display: none
+	@media (max-width: 575.98px)
+		height: 139px
+		top: 25%
+		width: 27%
+	@media (max-width: 370.98px)
+		height: 119px
+		top: 25%
+		width: 27%

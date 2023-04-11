@@ -57,16 +57,18 @@ function autosize(){
 var swiper = new Swiper("#carousel", {
   slidesPerView: 3,
   spaceBetween: 15,
-  // slidesPerGroup: 1,
   loop: true,
   centerSlide: "true",
-  speed: 1000,
+  speed: 600,
   touchRatio: 1,
-  fade: "true", 
+  fade: "true",
+    navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }, 
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    // dynamicBullets: true,
   },
   breakpoints: {
     0: {
