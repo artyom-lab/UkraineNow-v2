@@ -54,7 +54,6 @@ function autosize(){
     }
 }
 
-
 var swiper = new Swiper("#carousel", {
   slidesPerView: 3,
   spaceBetween: 15,
@@ -74,40 +73,11 @@ var swiper = new Swiper("#carousel", {
       allowTouchMove: true,
     },
     1200: {
-      // allowTouchMove: false,
+      allowTouchMove: false,
     },
   },
 });
 
-
 });
-
-// (function() {
-//   var MenuWebCarousel, carousel;
-
-//   MenuWebCarousel = (function() {
-//     function MenuWebCarousel() {
-//       this.swiperContainer = $("#carousel");
-//       this.swiperOptions = {
-//         resistanceRatio: 0,
-//         spaceBetween: 10,
-//         centeredSlides: true,
-//         slidesPerView: 'auto'
-//       };
-//     }
-
-//     MenuWebCarousel.prototype.initSwiper = function() {
-//       return this.swiperInstance = new Swiper(this.swiperContainer[0], this.swiperOptions);
-//     };
-
-//     return MenuWebCarousel;
-
-//   })();
-
-//   carousel = new MenuWebCarousel();
-
-//   carousel.initSwiper();
-
-// }).call(this);
 
 

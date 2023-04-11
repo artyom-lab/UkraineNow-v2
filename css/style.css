@@ -1492,6 +1492,8 @@ ul {
   .swiper-pagination .swiper-pagination-bullet {
     background-color: #E5F5FF;
     opacity: 1;
+    width: 8px;
+    animation: width-down linear 0.4s;
     transform: scale(1); }
     .swiper-pagination .swiper-pagination-bullet:hover {
       background: #B2E2FF; }
@@ -1499,6 +1501,18 @@ ul {
     background: #B2E2FF;
     width: 28px;
     height: 8px;
-    border-radius: 8px; }
+    border-radius: 8px;
+    animation: width-up linear 0.4s; }
+
+@keyframes width-down {
+  0% {
+    width: 28px; }
+  50% {
+    width: 18px; } }
+@keyframes width-up {
+  0% {
+    width: 8px; }
+  50% {
+    width: 18px; } }
 
 /*# sourceMappingURL=style.css.map */
