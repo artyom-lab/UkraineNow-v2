@@ -59,7 +59,6 @@ var swiper = new Swiper("#carousel", {
   spaceBetween: 15,
   loop: true,
   centerSlide: "true",
-  speed: 1200,
   touchRatio: 1,
   fade: "true",
     navigation: {
@@ -73,9 +72,11 @@ var swiper = new Swiper("#carousel", {
   breakpoints: {
     0: {
       allowTouchMove: true,
+      speed: 1200,
     },
     1200: {
       allowTouchMove: false,
+      speed: 500,
     },
   },
 });
