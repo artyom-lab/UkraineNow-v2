@@ -8,33 +8,9 @@ $(function() {
   Waves.attach('.btn',  ['waves-light']);
   Waves.init();
 
-//   $(document).on('click', '.owl-item', function(e) {
-//   const carousel = $('.owl-carousel').data('owl.carousel');
-//   carousel.to(carousel.relative($(this).index()), false, true);
-// });
-
-var swiper = new Swiper(".slide-container", {
-  slidesPerView: 3,
-  spaceBetween: 15,
-  // slidesPerGroup: 1,
-  loop: true,
-  centerSlide: "true",
-  speed: 1000,
-  fade: "true", 
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-    // dynamicBullets: true,
-  },
-  breakpoints: {
-    0: {
-      allowTouchMove: true,
-    },
-    1200: {
-      allowTouchMove: false,
-    },
-  },
-});
+  $(".scroll-to").mPageScroll2id({
+    scrollSpeed: 900,
+  }); 
 
   var popupTimer;
   function delayPopup(popup) {
@@ -59,10 +35,6 @@ var swiper = new Swiper(".slide-container", {
     delayPopup(this);
   });
 
-$(".scroll-to").mPageScroll2id({
-  scrollSpeed: 900,
-}); 
-
 autosize();
 function autosize(){
     var text = $('.autosize');
@@ -81,6 +53,30 @@ function autosize(){
         $text.css('height', $text[0].scrollHeight+'px');
     }
 }
+
+var swiper = new Swiper(".slide-container", {
+  slidesPerView: 3,
+  spaceBetween: 15,
+  // slidesPerGroup: 1,
+  loop: true,
+  centerSlide: "true",
+  speed: 1000,
+  fade: "true", 
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    // dynamicBullets: true,
+  },
+  breakpoints: {
+    0: {
+      allowTouchMove: true,
+    },
+    1200: {
+      allowTouchMove: false,
+    },
+  },
+});
+
 
 });
 
