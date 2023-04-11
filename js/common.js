@@ -80,6 +80,8 @@ function autosize(){
 // });
 
 
+});
+
 (function() {
   var MenuWebCarousel, carousel;
 
@@ -107,36 +109,5 @@ function autosize(){
   carousel.initSwiper();
 
 }).call(this);
-
-
-});
-
-// (function() {
-//   var MenuWebCarousel, carousel;
-
-//   MenuWebCarousel = (function() {
-//     function MenuWebCarousel() {
-//       this.swiperContainer = $("#carousel");
-//       this.swiperOptions = {
-//         resistanceRatio: 0,
-//         spaceBetween: 10,
-//         centeredSlides: true,
-//         slidesPerView: 'auto'
-//       };
-//     }
-
-//     MenuWebCarousel.prototype.initSwiper = function() {
-//       return this.swiperInstance = new Swiper(this.swiperContainer[0], this.swiperOptions);
-//     };
-
-//     return MenuWebCarousel;
-
-//   })();
-
-//   carousel = new MenuWebCarousel();
-
-//   carousel.initSwiper();
-
-// }).call(this);
 
 

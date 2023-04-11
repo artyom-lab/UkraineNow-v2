@@ -1451,9 +1451,11 @@ ul {
   line-height: 120px;
   transition: 300ms;
   font-size: 16px;
-  transform: scale3d(0.73, 0.73, 1);
+  transform: scale3d(1, 1, 1);
   text-decoration: none;
   border-radius: 34px; }
+  .menu-carousel-link:hover {
+    opacity: 1; }
 
 .globocom-slide .menu-carousel-link {
   background-color: blue; }
@@ -1473,7 +1475,9 @@ ul {
 .techtudo-slide .menu-carousel-link {
   background-color: #595959; }
 
-.swiper-slide-active .menu-carousel-link {
-  transform: scale3d(1, 1, 1); }
+.swiper-slide-active {
+  z-index: 1; }
+  .swiper-slide-active .menu-carousel-link {
+    transform: scale3d(1.3, 1.3, 1); }
 
 /*# sourceMappingURL=style.css.map */
