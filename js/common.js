@@ -59,7 +59,7 @@ var swiper = new Swiper("#carousel", {
   spaceBetween: 15,
   loop: true,
   centerSlide: "true",
-  speed: 1000,
+  speed: 1200,
   touchRatio: 1,
   fade: "true",
     navigation: {
