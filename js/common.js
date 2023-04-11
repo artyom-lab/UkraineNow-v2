@@ -61,6 +61,7 @@ var swiper = new Swiper(".slide-container", {
   loop: true,
   centerSlide: "true",
   speed: 1000,
+  touchRatio: 3,
   fade: "true", 
   pagination: {
     el: ".swiper-pagination",
