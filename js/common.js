@@ -74,7 +74,7 @@ var swiper = new Swiper("#carousel", {
       allowTouchMove: true,
     },
     1200: {
-      allowTouchMove: false,
+      // allowTouchMove: false,
     },
   },
 });
