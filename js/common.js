@@ -57,8 +57,7 @@ function autosize(){
 var swiper = new Swiper("#carousel", {
   slidesPerView: 3,
   spaceBetween: 15,
-  loop: true,
-  shortSwipes: false,
+  // loop: true,
   centeredSlides: true,
   touchRatio: 1,
   speed:  600,
